@@ -1,4 +1,3 @@
-import React from 'react'
 import { expCards } from '../constants'
 import TitleHeader from '../components/TitleHeader'
 import GlowCard from './GlowCard'
