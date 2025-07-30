@@ -23,6 +23,8 @@ const ExperienceSection = () => {
                 }
             })
         })
+
+        gsap.to()
     }, [])
   return (
     <section id="experience" className='w-full md:mt-40 mt-20 section-padding xl:px-0'>
