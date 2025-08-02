@@ -3,7 +3,6 @@ import TitleHeader from '../components/TitleHeader'
 import { techStackIcons } from '../constants'
 
 
-
 export default function TechStack() {
   return (
     <div id="skills" className='flex-center section-padding'>
@@ -19,6 +18,7 @@ export default function TechStack() {
                         <div className='tech-card-animated-bg' />
                         <div className='tech-card-content'>
                             <div className='tech-icon-wrapper'>
+                                <TechIcon model={icon} />
 
                             </div>
                         </div>
