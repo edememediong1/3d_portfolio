@@ -1,7 +1,7 @@
 import React from 'react'
 import TitleHeader from '../components/TitleHeader'
 import { techStackIcons } from '../constants'
-
+import TechIcon from '../components/Models/TechLogos/TechIcon'
 
 export default function TechStack() {
   return (
